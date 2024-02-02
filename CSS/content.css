@@ -4,14 +4,25 @@
     width: 750px;
     margin: 0 auto;
     margin-top: 140px;
-
 }
 
 #conteudo-primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-
+}
+.destaques, .noticias-recentes {
+    background: #f3f3f3 url(../image/fundo-caixa.png);
+    padding: 5px;
+    margin: 10px 0;
+}
+.noticia, p{
+    padding: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: block;
+    color: #000;
+    
 }
 
 #conteudo-secundario {
@@ -25,20 +36,28 @@
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-
 }
 #navegacao-lateral {
     background: #f3f3f3 url(../image/fundo-caixa.png);
     padding: 5px;
     margin: 10px 0;
 }
+
 h2{
     background: #294c71;
     color: #fff;
     font-size: 1em;
     padding: 5px;  
 }
-
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    padding: 5px;  
+    margin: 5px auto;
+    color: #fff;
+    background-color: #b10333;
+    border: 1px solid #870528;
+}
 .conteudo {
     padding: 5px;
     margin-bottom: 20px;
@@ -78,12 +97,19 @@ input.submit{
     width: 80px;
     color: #fff;
     background-color: #b10333;
-    border-radius: 1px solid #870528;
+    border-radius: 5px;
+    border: 1px solid #870528;
     cursor: pointer;
 }
 
 /*fim do conteudo*/
 
+/* Formatando imagens */
+img.imagem-principal {
+    width: 98%;
+    margin: 0 auto;
+    border: 3px solid #dfdfdf;
+}
 /* inicio do Rodape */
 
 #footer {
