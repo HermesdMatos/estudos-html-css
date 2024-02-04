@@ -7,17 +7,17 @@
 }
 
 #conteudo-primario {
-    width: 270px;
+    width: 540px;
     float: left;
     margin: 0 0 20px 195px;
 }
-.destaques, .entrevistas, .noticia-mundo, .noticia-esportiva {
+.destaques, .entrevistas {
     background: #f3f3f3 url(../image/fundo-caixa.png);
     padding: 5px;
     margin: 10px 0;
 }
 
-.noticia, p{
+.noticia{
     padding: 1px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -25,16 +25,8 @@
     color: #000;
     background: #e5e5e5;
 }
-.noticia p:hover {
-    color: #b10333;
-}
 
-#conteudo-secundario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
-}
-
+/* navegacao lateral */
 #conteudo-lateral {
     width: 180px;
     float: left;
@@ -61,6 +53,7 @@ h3 {
     background-color: #b10333;
     border: 1px solid #870528;
 }
+
 .conteudo {
     padding: 5px;
     margin-bottom: 20px;
@@ -105,6 +98,7 @@ input.submit{
     cursor: pointer;
 }
 
+/* fim do conteudo lateral */
 /*fim do conteudo*/
 
 /* Formatando imagens */
@@ -113,37 +107,6 @@ img.imagem-principal {
     margin: 0 auto;
     border: 3px solid #dfdfdf;
 }
-
-#lista-noticias li {
-    padding: 2px;
-    border-bottom: 5px solid #fff;
-}
-
-#lista-noticias li a img {
-    float: left;
-    margin: 5px 5px 0 5px;
-}
-#lista-noticias li p {
-    font-size: 0.9em;
-    margin: 3px 0 3px 90px;
-    color: #294c71;
-    padding: 5px;
-    background: #e5e5e5;
-}
-#lista-noticias li p:hover {
-    color: #b10333;
-}
-#lista-noticias li a {
-    text-decoration: none;
-    font-size: 0.8em;
-}
-
-#lista-noticias li h3 {
-    margin: 5px 0 0px 90px;
-    font-size: 0.9em;
-    border: 1px solid #870528;
-}
-
 
 /* inicio do Rodape */
 
